@@ -1,0 +1,736 @@
+[
+  {
+    "name": {
+      "common": "Afghanistan",
+      "official": "Islamic Republic of Afghanistan"
+    },
+    "cca2": "AF",
+    "cca3": "AFG",
+    "capital": ["Kabul"],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": {
+      "prs": "Dari",
+      "pus": "Pashto",
+      "tuk": "Turkmen"
+    },
+    "currencies": {
+      "AFN": {
+        "name": "Afghan afghani",
+        "symbol": "؋"
+      }
+    },
+    "latlng": [33, 65],
+    "borders": ["IRN", "PAK", "TKM", "UZB", "TJK", "CHN"],
+    "area": 652230,
+    "landlocked": true,
+    "independent": true,
+    "flag": "🇦🇫",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Argentina",
+      "official": "Argentine Republic"
+    },
+    "cca2": "AR",
+    "cca3": "ARG",
+    "capital": ["Buenos Aires"],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "ARS": {
+        "name": "Argentine peso",
+        "symbol": "$"
+      }
+    },
+    "latlng": [-34, -64],
+    "borders": ["BOL", "BRA", "CHL", "PRY", "URY"],
+    "area": 2780400,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇦🇷",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Antarctica",
+      "official": "Antarctica"
+    },
+    "cca2": "AQ",
+    "cca3": "ATA",
+    "capital": [],
+    "region": "Antarctic",
+    "subregion": "",
+    "languages": {},
+    "currencies": {},
+    "latlng": [-90, 0],
+    "borders": [],
+    "area": 14000000,
+    "landlocked": false,
+    "independent": false,
+    "flag": "🇦🇶",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Australia",
+      "official": "Commonwealth of Australia"
+    },
+    "cca2": "AU",
+    "cca3": "AUS",
+    "capital": ["Canberra"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "AUD": {
+        "name": "Australian dollar",
+        "symbol": "$"
+      }
+    },
+    "latlng": [-27, 133],
+    "borders": [],
+    "area": 7692024,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇦🇺",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Brazil",
+      "official": "Federative Republic of Brazil"
+    },
+    "cca2": "BR",
+    "cca3": "BRA",
+    "capital": ["Brasília"],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "BRL": {
+        "name": "Brazilian real",
+        "symbol": "R$"
+      }
+    },
+    "latlng": [-10, -55],
+    "borders": ["ARG", "BOL", "COL", "GUF", "GUY", "PRY", "PER", "SUR", "URY", "VEN"],
+    "area": 8515767,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇧🇷",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Canada",
+      "official": "Canada"
+    },
+    "cca2": "CA",
+    "cca3": "CAN",
+    "capital": ["Ottawa"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    },
+    "currencies": {
+      "CAD": {
+        "name": "Canadian dollar",
+        "symbol": "$"
+      }
+    },
+    "latlng": [60, -95],
+    "borders": ["USA"],
+    "area": 9984670,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇨🇦",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Germany",
+      "official": "Federal Republic of Germany"
+    },
+    "cca2": "DE",
+    "cca3": "DEU",
+    "capital": ["Berlin"],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": {
+      "deu": "German"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "latlng": [51, 9],
+    "borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
+    "area": 357114,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇩🇪",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Ecuador",
+      "official": "Republic of Ecuador"
+    },
+    "cca2": "EC",
+    "cca3": "ECU",
+    "capital": ["Quito"],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    "latlng": [-2, -77.5],
+    "borders": ["COL", "PER"],
+    "area": 276841,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇪🇨",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Egypt",
+      "official": "Arab Republic of Egypt"
+    },
+    "cca2": "EG",
+    "cca3": "EGY",
+    "capital": ["Cairo"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "EGP": {
+        "name": "Egyptian pound",
+        "symbol": "£"
+      }
+    },
+    "latlng": [27, 30],
+    "borders": ["ISR", "LBY", "PSE", "SDN"],
+    "area": 1002450,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇪🇬",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Spain",
+      "official": "Kingdom of Spain"
+    },
+    "cca2": "ES",
+    "cca3": "ESP",
+    "capital": ["Madrid"],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "latlng": [40, -4],
+    "borders": ["AND", "FRA", "GIB", "PRT", "MAR"],
+    "area": 505992,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇪🇸",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "France",
+      "official": "French Republic"
+    },
+    "cca2": "FR",
+    "cca3": "FRA",
+    "capital": ["Paris"],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "latlng": [46, 2],
+    "borders": ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"],
+    "area": 551695,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇫🇷",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "United Kingdom",
+      "official": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    "cca2": "GB",
+    "cca3": "GBR",
+    "capital": ["London"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "GBP": {
+        "name": "British pound",
+        "symbol": "£"
+      }
+    },
+    "latlng": [54, -2],
+    "borders": ["IRL"],
+    "area": 242900,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇬🇧",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Italy",
+      "official": "Italian Republic"
+    },
+    "cca2": "IT",
+    "cca3": "ITA",
+    "capital": ["Rome"],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+      "ita": "Italian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "latlng": [42.83333333, 12.83333333],
+    "borders": ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"],
+    "area": 301336,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇮🇹",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Japan",
+      "official": "Japan"
+    },
+    "cca2": "JP",
+    "cca3": "JPN",
+    "capital": ["Tokyo"],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": {
+      "jpn": "Japanese"
+    },
+    "currencies": {
+      "JPY": {
+        "name": "Japanese yen",
+        "symbol": "¥"
+      }
+    },
+    "latlng": [36, 138],
+    "borders": [],
+    "area": 377930,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇯🇵",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Kazakhstan",
+      "official": "Republic of Kazakhstan"
+    },
+    "cca2": "KZ",
+    "cca3": "KAZ",
+    "capital": ["Astana"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": {
+      "kaz": "Kazakh",
+      "rus": "Russian"
+    },
+    "currencies": {
+      "KZT": {
+        "name": "Kazakhstani tenge",
+        "symbol": "₸"
+      }
+    },
+    "latlng": [48, 68],
+    "borders": ["CHN", "KGZ", "RUS", "TKM", "UZB"],
+    "area": 2724900,
+    "landlocked": true,
+    "independent": true,
+    "flag": "🇰🇿",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Kyrgyzstan",
+      "official": "Kyrgyz Republic"
+    },
+    "cca2": "KG",
+    "cca3": "KGZ",
+    "capital": ["Bishkek"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": {
+      "kir": "Kyrgyz",
+      "rus": "Russian"
+    },
+    "currencies": {
+      "KGS": {
+        "name": "Kyrgyzstani som",
+        "symbol": "с"
+      }
+    },
+    "latlng": [41, 75],
+    "borders": ["CHN", "KAZ", "TJK", "UZB"],
+    "area": 199951,
+    "landlocked": true,
+    "independent": true,
+    "flag": "🇰🇬",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Morocco",
+      "official": "Kingdom of Morocco"
+    },
+    "cca2": "MA",
+    "cca3": "MAR",
+    "capital": ["Rabat"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": {
+      "ara": "Arabic",
+      "ber": "Berber"
+    },
+    "currencies": {
+      "MAD": {
+        "name": "Moroccan dirham",
+        "symbol": "د.م."
+      }
+    },
+    "latlng": [32, -5],
+    "borders": ["DZA", "ESH", "ESP"],
+    "area": 446550,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇲🇦",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Mexico",
+      "official": "United Mexican States"
+    },
+    "cca2": "MX",
+    "cca3": "MEX",
+    "capital": ["Mexico City"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "MXN": {
+        "name": "Mexican peso",
+        "symbol": "$"
+      }
+    },
+    "latlng": [23, -102],
+    "borders": ["BLZ", "GTM", "USA"],
+    "area": 1964375,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇲🇽",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "New Zealand",
+      "official": "New Zealand"
+    },
+    "cca2": "NZ",
+    "cca3": "NZL",
+    "capital": ["Wellington"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English",
+      "mri": "Māori",
+      "nzs": "New Zealand Sign Language"
+    },
+    "currencies": {
+      "NZD": {
+        "name": "New Zealand dollar",
+        "symbol": "$"
+      }
+    },
+    "latlng": [-41, 174],
+    "borders": [],
+    "area": 270467,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇳🇿",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Portugal",
+      "official": "Portuguese Republic"
+    },
+    "cca2": "PT",
+    "cca3": "PRT",
+    "capital": ["Lisbon"],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "latlng": [39.5, -8],
+    "borders": ["ESP"],
+    "area": 92090,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇵🇹",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Thailand",
+      "official": "Kingdom of Thailand"
+    },
+    "cca2": "TH",
+    "cca3": "THA",
+    "capital": ["Bangkok"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": {
+      "tha": "Thai"
+    },
+    "currencies": {
+      "THB": {
+        "name": "Thai baht",
+        "symbol": "฿"
+      }
+    },
+    "latlng": [15, 100],
+    "borders": ["MMR", "KHM", "LAO", "MYS"],
+    "area": 513120,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇹🇭",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Tajikistan",
+      "official": "Republic of Tajikistan"
+    },
+    "cca2": "TJ",
+    "cca3": "TJK",
+    "capital": ["Dushanbe"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": {
+      "rus": "Russian",
+      "tgk": "Tajik"
+    },
+    "currencies": {
+      "TJS": {
+        "name": "Tajikistani somoni",
+        "symbol": "ЅМ"
+      }
+    },
+    "latlng": [39, 71],
+    "borders": ["AFG", "CHN", "KGZ", "UZB"],
+    "area": 143100,
+    "landlocked": true,
+    "independent": true,
+    "flag": "🇹🇯",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Turkmenistan",
+      "official": "Turkmenistan"
+    },
+    "cca2": "TM",
+    "cca3": "TKM",
+    "capital": ["Ashgabat"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": {
+      "rus": "Russian",
+      "tuk": "Turkmen"
+    },
+    "currencies": {
+      "TMT": {
+        "name": "Turkmenistan manat",
+        "symbol": "m"
+      }
+    },
+    "latlng": [40, 60],
+    "borders": ["AFG", "IRN", "KAZ", "UZB"],
+    "area": 488100,
+    "landlocked": true,
+    "independent": true,
+    "flag": "🇹🇲",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Türkiye",
+      "official": "Republic of Türkiye"
+    },
+    "cca2": "TR",
+    "cca3": "TUR",
+    "capital": ["Ankara"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": {
+      "tur": "Turkish"
+    },
+    "currencies": {
+      "TRY": {
+        "name": "Turkish lira",
+        "symbol": "₺"
+      }
+    },
+    "latlng": [39, 35],
+    "borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
+    "area": 783562,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇹🇷",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America"
+    },
+    "cca2": "US",
+    "cca3": "USA",
+    "capital": ["Washington D.C."],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    "latlng": [38, -97],
+    "borders": ["CAN", "MEX"],
+    "area": 9372610,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇺🇸",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Uzbekistan",
+      "official": "Republic of Uzbekistan"
+    },
+    "cca2": "UZ",
+    "cca3": "UZB",
+    "capital": ["Tashkent"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": {
+      "rus": "Russian",
+      "uzb": "Uzbek"
+    },
+    "currencies": {
+      "UZS": {
+        "name": "Uzbekistani soʻm",
+        "symbol": "so'm"
+      }
+    },
+    "latlng": [41, 64],
+    "borders": ["AFG", "KAZ", "KGZ", "TJK", "TKM"],
+    "area": 447400,
+    "landlocked": true,
+    "independent": true,
+    "flag": "🇺🇿",
+    "translations": {}
+  },
+  {
+    "name": {
+      "common": "Vietnam",
+      "official": "Socialist Republic of Vietnam"
+    },
+    "cca2": "VN",
+    "cca3": "VNM",
+    "capital": ["Hanoi"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": {
+      "vie": "Vietnamese"
+    },
+    "currencies": {
+      "VND": {
+        "name": "Vietnamese đồng",
+        "symbol": "₫"
+      }
+    },
+    "latlng": [16.16666666, 107.83333333],
+    "borders": ["KHM", "CHN", "LAO"],
+    "area": 331212,
+    "landlocked": false,
+    "independent": true,
+    "flag": "🇻🇳",
+    "translations": {}
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "name": "travel-insights-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL aggregation API over public country, weather and FX data with DataLoader batching, SWR caching and production hardening.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Yusuf Yuldashev",
+  "private": true,
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@graphql-yoga/plugin-disable-introspection": "^3.0.0",
+    "@graphql-yoga/plugin-persisted-operations": "^4.0.0",
+    "dataloader": "^2.2.3",
+    "graphql": "^17.0.2",
+    "graphql-yoga": "^6.0.0",
+    "pino": "^10.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@graphql-codegen/add": "^7.1.1",
+    "@graphql-codegen/cli": "^7.4.6",
+    "@graphql-codegen/typescript": "^6.1.2",
+    "@graphql-codegen/typescript-resolvers": "^6.1.1",
+    "@types/node": "^22.20.5",
+    "@vitest/coverage-v8": "^5.0.5",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "pino-pretty": "^13.2.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.0",
+    "vitest": "^5.0.5"
+  }
+}

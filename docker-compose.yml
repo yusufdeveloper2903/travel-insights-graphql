@@ -1,0 +1,18 @@
+services:
+  api:
+    build: .
+    image: travel-insights-graphql:local
+    init: true
+    read_only: true
+    ports:
+      - '4000:4000'
+    environment:
+      NODE_ENV: production
+      LOG_LEVEL: info
+      # Behind a reverse proxy, enable this so rate limiting keys on the real client IP.
+      TRUST_PROXY: 'false'
+    env_file:
+      - path: .env
+        required: false
+    restart: unless-stopped
+    stop_grace_period: 15s
